@@ -1,0 +1,32 @@
+<!--
+Nombre: Kamal
+Curso: Lenguajes de Marcas
+Fecha: 25/03/2025
+Ejercicio 2 
+-->
+
+<!-- Información de equipos de fútbol -->
+<equipos>
+    <equipo>
+        <nombre>Real Madrid</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="delantero">
+                <nombre>Vinícius Jr.</nombre>
+                <nacionalidad>Brasil</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+    <equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador/>
+        <jugadores>
+            <jugador posicion="medio">
+                <nombre>Pedro González</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+        </jugadores>
+    </equipo>
+</equipos>

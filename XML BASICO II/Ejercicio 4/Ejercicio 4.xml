@@ -1,0 +1,35 @@
+<!--
+Nombre: Kamal
+Curso: Lenguajes de Marcas
+Fecha: 25/03/2025
+Ejercicio 4 
+-->
+
+<!-- Información del módulo y alumnos -->
+<modulo>
+    <nombre>Lenguajes de Marcas</nombre>
+    <horas-semanales>4</horas-semanales>
+    <caracter>Obligatorio</caracter>
+    <fecha-inicio>15/09/2023</fecha-inicio>
+    <fecha-fin>22/06/2024</fecha-fin>
+    <alumnos>
+        <alumno>
+            <nombre>Ana Fernández Gutiérrez</nombre>
+            <dni>51623487V</dni>
+            <telefono>666544566</telefono>
+            <email>anafernandez@gmail.com</email>
+            <direccion>C/ Amatista, 14, 28905 Getafe (Madrid)</direccion>
+            <notas></notas>
+            <faltas></faltas>
+        </alumno>
+        <alumno>
+            <nombre>Carlos López Sánchez</nombre>
+            <dni>52369874B</dni>
+            <telefono>666455477</telefono>
+            <email>carloslopez@gmail.com</email>
+            <direccion>C/ Ópalo, 15, 28905 Getafe (Madrid)</direccion>
+            <notas>apto</notas>
+            <faltas>0</faltas>
+        </alumno>
+    </alumnos>
+</modulo>
