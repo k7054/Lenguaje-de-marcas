@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Nombre: Kamal
+Curso: 1ºDAM
+Fecha: 3/04/2025 
+Cuento 2
+-->
+
+<!DOCTYPE cuento SYSTEM "Cuento.dtd">
+
+<cuento cod="B02" titulo="El secreto del faro" genero="misterio">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Lucas</nombre>
+            <genero>M</genero>
+            <descripcion>Un joven periodista que investiga una leyenda.</descripcion>
+            <descripcion_fisica>Alto, cabello oscuro, gafas.</descripcion_fisica>
+        </personaje>
+        
+        <personaje id="p2" tipo="secundario">
+            <nombre>Capitán Rojas</nombre>
+            <genero>M</genero>
+            <descripcion>Un anciano marinero con muchas historias sobre el faro.</descripcion>
+        </personaje>
+    </personajes>
+    
+    <trama>Lucas descubre un antiguo diario que revela un misterio oculto en el faro de la ciudad.</trama>
+    
+    <etiqueta nombre="investigación"/>
+    <etiqueta nombre="suspenso"/>
+    
+    <precio moneda="eur">15.50</precio>
+</cuento>

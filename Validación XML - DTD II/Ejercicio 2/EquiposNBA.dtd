@@ -1,0 +1,14 @@
+<!-- 
+Nombre: Kamal
+Curso: 1º DAM 
+Fecha: 3/04/2025 
+Ejercicio 2
+-->
+
+<!ELEMENT EquiposNBA (equipo | nombre)*>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT equipo (titulos, posicion, quinteto)>
+<!ATTLIST equipo conferencia CDATA #REQUIRED>
+<!ELEMENT titulos (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+<!ELEMENT quinteto (#PCDATA)>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Nombre: Kamal
+Curso: 1ºDAM
+Fecha: 3/04/2025 
+Cuento 1
+-->
+
+<!DOCTYPE cuento SYSTEM "Cuento.dtd">
+
+<cuento cod="A01" titulo="El bosque encantado" genero="fantasía">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Alicia</nombre>
+            <genero>F</genero>
+            <descripcion>Una niña curiosa que descubre un bosque mágico.</descripcion>
+            <descripcion_fisica>Cabello rubio, ojos azules.</descripcion_fisica>
+        </personaje>
+        
+        <personaje id="p2" tipo="antagonista">
+            <nombre>Bruja del Bosque</nombre>
+            <genero>F</genero>
+            <descripcion>Una hechicera que protege los secretos del bosque.</descripcion>
+            <imagen>bruja.png</imagen>
+        </personaje>
+    </personajes>
+    
+    <trama>Alicia se pierde en un bosque encantado y debe encontrar la salida enfrentando pruebas mágicas.</trama>
+    
+    <etiqueta nombre="aventura"/>
+    <etiqueta nombre="magia"/>
+    
+    <precio moneda="eur">12.99</precio>
+</cuento>

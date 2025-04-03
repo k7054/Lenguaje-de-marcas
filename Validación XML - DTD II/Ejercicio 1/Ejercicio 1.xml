@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Nombre: Kamal
+Curso: 1º DAM 
+Fecha: 3/04/2025 
+Ejercicio 1
+-->
+
+<!DOCTYPE factura SYSTEM "factura.dtd">
+
+<factura numero="F12345" fecha="2025-04-03">
+    <datos-emisor>
+        <nombre>Librería Central</nombre>
+        <cif>B12345678</cif>
+        <telefono>912345678</telefono>
+    </datos-emisor>
+    
+    <datos-cliente>
+        <nombre>Biblioteca Nacional</nombre>
+        <cif>C98765432</cif>
+        <telefono>934567890</telefono>
+    </datos-cliente>
+    
+    <detalle-factura importe="89.90">
+        <linea codigo-articulo="A001" tipo="Libro">
+            <descripcion>Don Quijote de la Mancha</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>25.00</pvp>
+        </linea>
+        <linea codigo-articulo="A002" tipo="DVD">
+            <descripcion>Documental Historia</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>19.90</pvp>
+            <oferta/>
+        </linea>
+    </detalle-factura>
+</factura>

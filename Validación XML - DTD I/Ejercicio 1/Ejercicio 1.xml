@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Nombre: Kamal 
+Curso: 1º DAM 
+Fecha: 3/04/2025 
+Ejercicio 1
+-->
+
+<!-- DTD interna -->
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, editorial, autor, paginas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT paginas (#PCDATA)>
+]>
+
+<biblioteca>
+    <!-- Primer libro -->
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <editorial>Planeta</editorial>
+        <autor>
+            <nombre>Miguel Ángel</nombre>
+            <apellidos>Cervantes Saavedra</apellidos>
+        </autor>
+        <paginas>900</paginas>
+    </libro>
+    
+    <!-- Segundo libro -->
+    <libro>
+        <titulo>La Casa de los Espíritus</titulo>
+        <editorial>Debolsillo</editorial>
+        <autor>
+            <nombre>Isabel</nombre>
+            <apellidos>Allende</apellidos>
+        </autor>
+        <paginas>490</paginas>
+    </libro>
+    
+    <!-- Tercer libro -->
+    <libro>
+        <titulo>Rebelión en la Granja</titulo>
+        <editorial>Alianza Editorial</editorial>
+        <autor>
+            <nombre>Eric</nombre>
+            <apellidos>Blair</apellidos>
+        </autor>
+        <paginas>144</paginas>
+    </libro>
+</biblioteca>
