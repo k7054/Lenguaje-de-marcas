@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Nombre: Kamal
+Curso: 1ºDAM
+Fecha: 3/04/2025 
+Ejercicio 7
+-->
+
+<!DOCTYPE colores [
+  <!ELEMENT colores (color*)>
+<!ELEMENT color (nombreSvg, codigo)>
+<!ELEMENT nombreSvg (#PCDATA)>
+<!ELEMENT codigo (rgb | cmyk)>
+<!ELEMENT rgb (#PCDATA)>
+<!ELEMENT cmyk (#PCDATA)>
+]>
+
+<colores>
+    <color>
+        <nombreSvg>Purple</nombreSvg>
+        <codigo>
+            <rgb>#800080</rgb>
+        </codigo>
+    </color>
+    <color>
+        <nombreSvg>Purple</nombreSvg>
+        <codigo>
+            <cmyk>#00FF007F</cmyk>
+        </codigo>
+    </color>
+</colores>

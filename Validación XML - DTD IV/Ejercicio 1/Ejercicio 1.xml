@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+Nombre: Kamal
+Curso: 1ºDAM
+Fecha: 3/04/2025 
+Ejercicio 1
+-->
+
+<!DOCTYPE numeros [
+  <!ELEMENT numeros (numero+)>
+  <!ELEMENT numero (#PCDATA)>
+]>
+
+<numeros>
+  <numero>25</numero>
+</numeros>

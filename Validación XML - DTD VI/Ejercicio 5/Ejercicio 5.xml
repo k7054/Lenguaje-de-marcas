@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  
+Nombre: Kamal
+Curso: 1ºDAM
+Fecha: 3/04/2025 
+Ejercicio 5
+ -->
+
+<!DOCTYPE futbol [
+  <!ELEMENT futbol (jugador*)>
+  <!ELEMENT jugador EMPTY>
+  <!ATTLIST jugador nombre NMTOKENS #REQUIRED>
+  <!ATTLIST jugador codigo ID #REQUIRED>
+]>
+<futbol>
+  <jugador nombre="Alfredo Di Stéfano" codigo="1" />
+  <jugador nombre="Edson Arantes do Nascimento Pele" codigo="2" />
+  <jugador nombre="Diego Armando Maradona" codigo="3" />
+  <jugador nombre="Johan Cruyff" codigo="4" />
+</futbol>
