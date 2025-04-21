@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  
+Nombre: Kamal Amarouch
+Curso: 1ºDAM
+Fecha: 21/04/2025
+Ejercicio: Ejercicio 3
+ -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- Ejemplo para la expresión regular del caso 1 -->
+  <xs:simpleType name="capituloUnDigito">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="Capítulo \d"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Ejemplo para la expresión regular del caso 8 -->
+  <xs:simpleType name="codigoTresDigitos">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="COD\d{3}.+"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>
